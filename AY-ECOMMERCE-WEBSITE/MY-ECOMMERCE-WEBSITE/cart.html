@@ -1,0 +1,536 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Type some info">
+    <meta name="author" content="Type name">
+
+    <title>Web - Cart </title>
+
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap.css?v=2.0" rel="stylesheet" type="text/css" />
+
+    <!-- Custom css -->
+    <link href="css/ui.css?v=2.0" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css?v=2.0" rel="stylesheet" type="text/css" />
+
+    <!-- Font awesome 5 -->
+    <link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light-subtle">
+
+    <!-- FOR MOBILE  -->
+    <header class="mobile-header-top">
+        <div class="mobile-header-content">
+            <a href="home.html" class="brand-wrap me-2">
+      <img class="logo" height="40" src="images/logo.svg">
+    </a>
+            <!-- brand-wrap end.// -->
+            <div class="flex-grow-1">
+                <form action="#" class="search my-3 my-lg-0 ms-xl-4">
+                    <div class="input-group">
+                        <input type="search" class="form-control" style="width:55%" placeholder="Search">
+                        <button class="btn btn-light">  <i class="fa fa-search"></i>    </button>
+                    </div>
+                    <!-- input-group end.// -->
+                </form>
+                <!-- search-wrap end.// -->
+            </div>
+        </div>
+        <!-- mobile-header-content .// -->
+    </header>
+
+    <nav class="mobile-nav-bottom">
+        <div class="mobile-nav-content">
+            <a href="#" class="nav-link">
+      <i class="icon fa fa-home"></i><span class="text">Home</span>
+    </a>
+            <a href="#" class="nav-link">
+      <i class="icon fa fa-box"></i><span class="text">Category</span>
+    </a>
+            <a href="#" class="nav-link">
+      <i class="icon fa fa-shopping-cart"></i><span class="text">My cart</span>
+    </a>
+            <a href="#" class="nav-link">
+      <i class="icon fa fa-user"></i><span class="text">Profile</span>
+    </a>
+        </div>
+    </nav>
+    <!-- FOR MOBILE .//end  -->
+
+    <header class="section-header mobile-hidden">
+        <section class="header-main bg-white border-bottom py-lg-3 py-2">
+            <div class="container">
+                <div class="row gx-2 align-items-center">
+
+                    <div class="col-xl-2 col-lg col-6 col-sm-6  col-md flex-grow-0">
+                        <a href="home.html" class="brand-wrap me-3">
+                            <img class="logo" height="40" src="images/Home/logo.webp">
+                        </a>
+                        <!-- brand-wrap end.// -->
+                    </div>
+                    <!-- col end.// -->
+
+                    <div class="col-xl-7 col-lg-5 col-12 col-sm-12 col-md">
+
+                    </div>
+                    <!-- col end.// -->
+
+                    <div class="col-xl-3 col-lg-4 col-md-12 col-12">
+                        <!-- widgets-wrap  -->
+                        <nav class="d-flex justify-content-end ms-4">
+
+                            <div class="col mx-2 text-center">
+                                <a href="page-user-signup.html" class="text-muted hover:text-dark">
+                                    <span class="fs-5 d-inline-block"> <img src="./images/Home/Vector.webp"
+                                            style="width: 20px;" alt=""> </span>
+                                    <small class="d-block text-dark text-truncate"> Profile </small>
+                                </a>
+                            </div>
+
+                            <div class="col mx-2 text-center">
+                                <a href="#" class="text-muted hover:text-dark">
+                                    <span class="icon-28 fs-5 d-inline-block position-relative">
+                                        <img src="./images/Home/Vector (1).webp" style="width: 20px;">
+                                    </span>
+                                    <small class=" d-block text-dark text-truncate"> Message </small>
+                                </a>
+                            </div>
+
+                            <div class="col mx-2 text-center">
+                                <a href="#" class="text-muted hover:text-dark">
+                                    <span class="fs-5 d-inline-block"> <img src="./images/Home/Vector (2).webp"
+                                            style="width: 20px; "> </span>
+                                    <small class=" d-block text-dark text-truncate"> Saved </small>
+                                </a>
+                            </div>
+
+                            <div class="col mx-2 text-center">
+                                <a href="#" class="text-muted hover:text-dark">
+                                    <span class="fs-5 d-inline-block"> <img src="./images/Home/Vector (3).webp"
+                                            style="width: 20px; "> </span>
+                                    <small class=" d-block text-dark text-truncate"> Cart </small>
+                                </a>
+                            </div>
+                        </nav>
+                        <!-- widgets-wrap.// -->
+                    </div>
+                    <!-- col end.// -->
+                </div>
+                <!-- row end.// -->
+            </div>
+            <!-- container end.// -->
+        </section>
+        <!-- header-main end.// -->
+    </header>
+    <!-- section-header end.// -->
+
+
+    <section class="py-4">
+        <div class="container">
+
+            <!-- =================== COMPONENT CART+SUMMARY ====================== -->
+            <div class="row">
+                <main class="col-lg-9">
+                    <h4 class="card-title mb-4">My cart (3)</h4>
+                    <div class="card mb-4">
+                        <div class="card-body p-lg-4">
+                           
+
+                            <article class="row mb-4">
+                                <div class="col-lg-9">
+                                    <figure class="d-flex align-items-start">
+                                        <div class="me-3 flex-shrink-0">
+                                            <img src="images/items/cloth/4.jpg" class="size-100x100 img-thumbnail">
+                                        </div>
+                                        <figcaption class="info">
+                                            <a class='title' href='/uikit/p-market-detail'>Jeans Short for Men Original</a>
+                                            <p class="text-muted">
+                                                Size: medium, Color: blue, Material: Plastic <br> Seller: Artel Market
+                                            </p>
+                                            <a href="#" class="btn btn-light text-danger btn-sm">Remove</a>
+                                            <a href="#" class="btn btn-light btn-sm">Save for later</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="text-end mb-2">
+                                        <var class="h6">$78.99</var>
+                                    </div>
+                                    <!-- price-wrap .// -->
+                                    <select style="width: 100px" class="float-end form-select">
+										<option>Qty.: 1</option>
+										<option selected>Qty.: 2</option>
+										<option>Qty.: 3</option>
+									</select>
+                                </div>
+                            </article>
+                            <!-- row.// -->
+                            <hr>
+                            <article class="row mb-4">
+                                <div class="col-lg-9">
+                                    <figure class="d-flex align-items-start">
+                                        <div class="me-3 flex-shrink-0">
+                                            <img src="images/items/cloth/1.jpg" class="size-100x100 img-thumbnail">
+                                        </div>
+                                        <figcaption class="info">
+                                            <a class='title' href='/uikit/p-market-detail'>Semir Short Sleeve Men T-Shirt Cotton for Summer Versatile </a>
+                                            <p class="text-muted">
+                                                Size: XXL, Color: Lightblue <br> Seller: Adidas
+                                            </p>
+                                            <a href="#" class="btn btn-light text-danger btn-sm">Remove</a>
+                                            <a href="#" class="btn btn-light btn-sm">Save for later</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="text-end mb-2">
+                                        <var class="h6">$12.00</var>
+                                    </div>
+                                    <!-- price-wrap .// -->
+                                    <select style="width: 100px" class="float-end form-select">
+										<option>Qty.: 1</option>
+										<option>Qty.: 2</option>
+										<option>Qty.: 3</option>
+									</select>
+                                </div>
+                            </article>
+                            <!-- row.// -->
+                            <hr>
+                            <article class="row  mb-4">
+                                <div class="col-lg-9">
+                                    <figure class="d-flex align-items-start">
+                                        <div class="me-3 flex-shrink-0">
+                                            <img src="images/items/tech/4.jpg" class="size-100x100 img-thumbnail">
+                                        </div>
+                                        <figcaption class="info">
+                                            <a class='title' href='/uikit/p-market-detail'>Smart phone Apple iPhone 11, 64 / 128 GB</a>
+                                            <p class="text-muted">
+                                                128GB, Color: black, <br> Seller: Apple Inc
+                                            </p>
+                                            <a href="#" class="btn btn-light text-danger btn-sm">Remove</a>
+                                            <a href="#" class="btn btn-light btn-sm">Save for later</a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="text-end mb-2">
+                                        <var class="h6">$970.99</var>
+                                    </div>
+                                    <!-- price-wrap .// -->
+                                    <select style="width: 100px" class="float-end form-select">
+										<option>Qty.: 1</option>
+										<option>Qty.: 2</option>
+										<option>Qty.: 3</option>
+									</select>
+                                </div>
+                            </article>
+                            <!-- row.// -->
+
+                            <hr>
+
+                            <a class='btn btn-primary' href='/uikit/p-market-index'  onclick='history.back()'> 
+								 <img src="./images/icons/back.webp" width="18" style="margin-right: 10px; margin-top: 2px;"  alt="">Back to shop 
+							</a>
+
+                        </div>
+                        <!-- card-body .// -->
+                    </div>
+                    <!-- card.// -->
+
+                </main>
+                <!-- col.// -->
+                <aside class="col-lg-3">
+
+                    <div class="card p-3 mb-3 " style="margin-top: 50px;">
+                        <form>
+                            <div>
+                                <label class="form-label">Have coupon?</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="" placeholder="Add coupon">
+                                    <button class="btn btn-light" style="color: #0D6EFD;">Apply</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- card.// -->
+
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-7 fw-normal text-muted">Subtotal: </dt>
+                                <dd class="col-5 text-end">$143.90</dd>
+
+                                <dt class="col-7 fw-normal text-muted">Discount:</dt>
+                                <dd class="col-5 text-end" style="color: red;">- $60.00</dd>
+
+                                <dt class="col-7 fw-normal text-muted">Tax:</dt>
+                                <dd class="col-5 text-end" style="color: #00B517;">+ $14.00 </dd>
+
+                              
+                            </dl>
+                            <hr>
+                            <dl class="row">
+                                <dt class="col-7 h5 text-muted">Total:</dt>
+                                <dd class="col-5 h5 text-end"> $357.90 </dd>
+                            </dl>
+
+                            <div class="my-3">
+                                <a class='btn btn-lg w-100' style="background-color: #00B517; color: white;" href='/uikit/p-market-order'> Checkout </a>
+                            </div>
+                            <p class="text-center mt-3">
+                                <img src="images/misc/paymentimage.webp" height="24">
+                            </p>
+
+                        </div>
+                        <!-- card-body.// -->
+                    </div>
+                    <!-- card.// -->
+
+                </aside>
+                <!-- col.// -->
+
+            </div>
+            <!-- row.// -->
+            <!-- =================== COMPONENT 1 CART+SUMMARY .//END  ====================== -->
+
+
+
+            <article class="rounded p-5 bg-gray-light">
+
+                <!-- ---- features ----	 -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- item-feature -->
+                        <figure class="d-flex align-items-center">
+                            <span class="icon me-3 rounded-circle size-48x48 bg-secondary-subtle">
+								<img src="./images/icons/lock.webp" width="20" alt="">
+							</span>
+                            <figcaption>
+                                Secure Payment
+                                <p class="mb-0 text-muted">Have you ever finally just </p>
+                            </figcaption>
+                        </figure>
+                        <!-- item-feature .// -->
+                    </div>
+                    <!-- col.// -->
+                    <div class="col-md-3">
+                        <!-- item-feature -->
+                        <figure class="d-flex align-items-center">
+                            <span class="icon me-3 rounded-circle size-48x48 bg-secondary-subtle">
+								<img src="./images/icons/message.webp" width="20" alt="">
+							</span>
+                            <figcaption>
+                                Customer Support
+                                <p class="mb-0 text-muted">Have you ever finally just </p>
+                            </figcaption>
+                        </figure>
+                        <!-- item-feature .// -->
+                    </div>
+                    <!-- col.// -->
+                    
+                    <!-- col.// -->
+                    <div class="col-md-3">
+                        <!-- item-feature -->
+                        <figure class="d-flex align-items-center">
+                            <span class="icon me-3 rounded-circle size-48x48 bg-secondary-subtle">
+								<img src="./images/icons/truck.webp" width="20" alt="">
+							</span>
+                            <figcaption>
+                                Free Delivery
+                                <p class="mb-0 text-muted"> Have you ever finally just </p>
+                            </figcaption>
+                        </figure>
+                        <!-- item-feature .// -->
+                    </div>
+                    <!-- col.// -->
+                </div>
+                <!-- ---- features .// ----  -->
+            </article>
+
+        </div>
+        <!-- container .//  -->
+    </section>
+
+
+    <!-- ================ SECTION-RELATED ============== -->
+    <section class="padding-bottom">
+
+        <div class="container">
+            <article class="card p-3 p-lg-4 mb-4">
+                <h4 class="card-title mb-4">  Saved for later </h4>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                        <figure class="card-product-grid product-sm">
+                            <a href="#" class="img-wrap border rounded"> <img src="images/items/tech/2.jpg"> </a>
+                            <figcaption class="mt-2">
+                                <a href="#" class="title"> Original Product Name </a>
+                                <p class="mt-1 mb-2 text-muted"> $39.99</p>
+                                <a href="#" class="btn btn-light">  Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                        <figure class="card-product-grid product-sm">
+                            <a href="#" class="img-wrap border rounded"> <img src="images/items/cloth/5.jpg"> </a>
+                            <figcaption class="mt-2">
+                                <a href="#" class="title"> Jeans Backpack Small </a>
+                                <p class="mt-1 mb-2 text-muted"> $140.00 </p>
+                                <a href="#" class="btn btn-light">  Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                        <figure class="card-product-grid product-sm">
+                            <a href="#" class="img-wrap border rounded"> <img src="images/items/cloth/4.jpg"> </a>
+                            <figcaption class="mt-2">
+                                <a href="#" class="title"> Mens Jeans Short Blue </a>
+                                <p class="mt-1 mb-2 text-muted"> $132.00 </p>
+                                <a href="#" class="btn btn-light">  Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                        <figure class="card-product-grid product-sm">
+                            <a href="#" class="img-wrap border rounded"> <img src="images/items/tech/10.jpg"> </a>
+                            <figcaption class="mt-2">
+                                <a href="#" class="title">Electric Kettle 200 Watt </a>
+                                <p class="mt-1 mb-2 text-muted"> $95.80 </p>
+                                <a href="#" class="btn btn-light">  Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                <!-- row // -->
+
+            </article>
+        </div>
+        <!-- container .//  -->
+    </section>
+    <!-- ================ SECTION-RELATED END .// ============== -->
+
+ <!-- ================ SECTION-BANNER ============== -->
+ <section class="padding-bottom">
+    <div class="container">
+
+        <article class="card border-0 bg-primary bg-cover" style="background-image: url(images/banners/bg-warehouse.jpg);">
+            <div class="card-body p-lg-4">
+                <a href="#" class="mt-2 me-3 float-end btn btn-warning">Learn more</a>
+                <h4 class="text-white">Super discount on more than 100 USD</h4>
+                <p class="text-white lead mb-0">You ever write dummy info</p>
+            </div>
+        </article>
+    </div>
+    <!-- container .//  -->
+</section>
+<!-- ================ SECTION-BANNER END .// ============== -->
+
+
+    <footer class="section-footer footer-dark ">
+        <div class="container">
+            <section class="footer-main padding-y">
+                <div class="row">
+                    <aside class="col-12 col-sm-12 col-lg-4">
+                        <article class="me-lg-5">
+                            <img src="images/Home/logo.webp" height="44" class="logo-footer">
+                            <p class="mt-3 text-white-50" style="color: #505050!important;"> Best information about the
+                                company gies here but now lorem ipsum is</p>
+                            <nav class="mb-4 mb-lg-0">
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (1).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (2).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (3).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (4).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (5).webp"
+                                        alt="" style="width: 36px;"></a>
+
+                            </nav>
+                        </article>
+                    </aside>
+                    <aside class="col-6 col-sm-4 col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Store</h6>
+                        <ul class="list-menu mb-4">
+                            <li> <a href="#" style="color: #8B96A5!important;">About us</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Find store</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Categories</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Blogs</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-6 col-sm-4 col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Information</h6>
+                        <ul class="list-menu mb-4">
+                            <li> <a href="#" style="color: #8B96A5!important;">Help center</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Money refund</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Shipping info</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Refunds</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-6 col-sm-4  col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Support</h6>
+                        <ul class="list-menu mb-4">
+                            <li> <a href="#" style="color: #8B96A5!important;"> Help center </a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;"> Documents </a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;"> Account restore </a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;"> My Orders </a></li>
+                        </ul>
+                    </aside>
+
+                    <aside class="col-6 col-sm-4 col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Download</h6>
+                        <a href="#" style="color: #8B96A5!important;" class="mb-2 d-inline-block"> <img
+                                src="images/misc/btn-appstore.png" height="40"></a>
+                        <a href="#" style="color: #8B96A5!important;" class="mb-2 d-inline-block"> <img
+                                src="images/misc/btn-market.png" height="40"></a>
+                    </aside>
+                </div>
+                <!-- row.// -->
+            </section>
+            <!-- footer-top.// -->
+            <hr class="my-0">
+
+        </div>
+        <!-- container end.// -->
+    </footer>
+    <div style="background-color: #EFF2F4; color: #606060;">
+        <section class="container footer-bottom d-flex justify-content-between">
+
+            <div style="color: #606060;">
+                © 2025 Ecommerce Developed By Ayesha Yousufi 
+            </div>
+            <nav class="dropup">
+                <button class="dropdown-toggle btn align-items-center" type="button" data-bs-toggle="dropdown">
+                    <img src="images/flags/flag-usa.png" class="me-2" height="20">
+                    <span>English</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Russian</a></li>
+                    <li><a class="dropdown-item" href="#">Arabic</a></li>
+                    <li><a class="dropdown-item" href="#">Spanish</a></li>
+                </ul>
+            </nav>
+
+        </section>
+    </div>
+
+
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom js -->
+    <script src="js/script.js?v=2.0"></script>
+
+</body>
+
+</html>

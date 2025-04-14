@@ -1,0 +1,1107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Type some info">
+    <meta name="author" content="Type name">
+
+    <title>Web-Grid View </title>
+
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap.css?v=2.0" rel="stylesheet" type="text/css" />
+
+    <!-- Custom css -->
+    <link href="css/ui.css?v=2.0" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css?v=2.0" rel="stylesheet" type="text/css" />
+
+    <!-- Font awesome 5 -->
+    <link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light-subtle">
+    <!-- FOR MOBILE  -->
+    <header class="mobile-header-top">
+        <div class="mobile-header-content">
+            <a href="home.html" class="brand-wrap me-2">
+                <img class="logo" height="40" src="images/Home/logo.webp">
+            </a>
+            <!-- brand-wrap end.// -->
+            <div class="flex-grow-1">
+                <form action="#" class="search my-3 my-lg-0 ms-xl-4">
+                    <div class="input-group">
+                        <input type="search" class="form-control" style="width:55%" placeholder="Search">
+                        <button class="btn btn-light"> <i class="fa fa-search"></i> </button>
+                    </div>
+                    <!-- input-group end.// -->
+                </form>
+                <!-- search-wrap end.// -->
+            </div>
+        </div>
+        <!-- mobile-header-content .// -->
+    </header>
+
+    <nav class="mobile-nav-bottom">
+        <div class="mobile-nav-content">
+            <a href="#" class="nav-link">
+                <i class="icon fa fa-home"></i><span class="text">Home</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="icon fa fa-box"></i><span class="text">Category</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="icon fa fa-shopping-cart"></i><span class="text">My cart</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="icon fa fa-user"></i><span class="text">Profile</span>
+            </a>
+        </div>
+    </nav>
+    <!-- FOR MOBILE .//end  -->
+
+    <header class="section-header mobile-hidden">
+        <section class="header-main bg-white border-bottom py-lg-3 py-2">
+            <div class="container">
+                <div class="row gx-2 align-items-center">
+
+                    <div class="col-xl-2 col-lg col-6 col-sm-6  col-md flex-grow-0">
+                        <a href="home.html" class="brand-wrap me-3">
+                            <img class="logo" height="40" src="images/Home/logo.webp">
+                        </a>
+                        <!-- brand-wrap end.// -->
+                    </div>
+                    <!-- col end.// -->
+
+                    <div class="col-xl-7 col-lg-5 col-12 col-sm-12 col-md">
+                        <form action="#" class="search my-3 my-lg-0 ms-xl-4">
+                            <div class="input-group">
+                                <input type="search" class="form-control" style="width:55%" placeholder="Search">
+                                <select class="form-select">
+                                    <option value="">All category</option>
+                                    <option value="codex">Special</option>
+                                    <option value="comments">Only best</option>
+                                    <option value="content">Latest</option>
+                                </select>
+                                <button class="btn btn-primary">
+                                    Search
+                                </button>
+                            </div>
+                            <!-- input-group end.// -->
+                        </form>
+                        <!-- search-wrap end.// -->
+                    </div>
+                    <!-- col end.// -->
+
+                    <div class="col-xl-3 col-lg-4 col-md-12 col-12">
+                        <!-- widgets-wrap  -->
+                        <nav class="d-flex justify-content-end ms-4">
+
+                            <div class="col mx-2 text-center">
+                                <a href="page-user-signup.html" class="text-muted hover:text-dark">
+                                    <span class="fs-5 d-inline-block"> <img src="./images/Home/Vector.webp"
+                                            style="width: 20px;" alt=""> </span>
+                                    <small class="d-block text-dark text-truncate"> Profile </small>
+                                </a>
+                            </div>
+
+                            <div class="col mx-2 text-center">
+                                <a href="#" class="text-muted hover:text-dark">
+                                    <span class="icon-28 fs-5 d-inline-block position-relative">
+                                        <img src="./images/Home/Vector (1).webp" style="width: 20px;">
+                                    </span>
+                                    <small class=" d-block text-dark text-truncate"> Message </small>
+                                </a>
+                            </div>
+
+                            <div class="col mx-2 text-center">
+                                <a href="#" class="text-muted hover:text-dark">
+                                    <span class="fs-5 d-inline-block"> <img src="./images/Home/Vector (2).webp"
+                                            style="width: 20px; "> </span>
+                                    <small class=" d-block text-dark text-truncate"> Saved </small>
+                                </a>
+                            </div>
+
+                            <div class="col mx-2 text-center">
+                                <a href="#" class="text-muted hover:text-dark">
+                                    <span class="fs-5 d-inline-block"> <img src="./images/Home/Vector (3).webp"
+                                            style="width: 20px; "> </span>
+                                    <small class=" d-block text-dark text-truncate"> Cart </small>
+                                </a>
+                            </div>
+                        </nav>
+                        <!-- widgets-wrap.// -->
+                    </div>
+                    <!-- col end.// -->
+                </div>
+                <!-- row end.// -->
+            </div>
+            <!-- container end.// -->
+        </section>
+        <!-- header-main end.// -->
+        <nav class="navbar navbar-light bg-white navbar-expand-lg border-bottom">
+            <div class="container">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_main"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar_main">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button">
+                                All category
+                            </a>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" role="button">
+                                Hot offers
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gift boxes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu item</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#">Help</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">English, USD</a>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class="dropdown-item" href="#">English, Pound</a>
+                                <a class="dropdown-item" href="#">English, Rupess</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Ship to <img
+                                    src="./images/header/icon.png" alt=""></a>
+
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class="dropdown-item" href="#">Russian</a>
+                                <a class="dropdown-item" href="#">Uzbek</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- collapse end.// -->
+            </div>
+            <!-- container end.// -->
+        </nav>
+        <!-- navbar end.// -->
+    </header>
+    <!-- section-header end.// -->
+    <!-- section-header end.// -->
+
+
+    <!-- ============== SECTION PAGETOP ============== -->
+    <section class="py-4">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="text-muted" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-muted" href="#">Category name</a></li>
+                <li class="breadcrumb-item"><a class="text-muted" href="#">Techs</a></li>
+                <li class="breadcrumb-item text-muted" aria-current="page">Equipments</li>
+            </ol>
+        </div>
+        <!-- container //  -->
+    </section>
+    <!-- ============== SECTION PAGETOP END// ============== -->
+
+    <!-- ============== SECTION CONTENT ============== -->
+    <section>
+        <div class="container">
+
+            <div class="row">
+                <aside class="col-xl-2 col-lg-3">
+
+                    <button class="btn btn-outline-secondary mb-3 w-100  d-lg-none" data-bs-toggle="collapse"
+                        data-bs-target="#aside_filter">Show filter</button>
+
+                    <!-- ===== Card for sidebar filter ===== -->
+                    <div id="aside_filter" class="collapse d-lg-block mb-5">
+
+                        <!-- filterby item -->
+                        <article>
+                            <a href="#" class="fw-bold text-dark d-flex justify-content-between py-3 d-block border-top"
+                                data-bs-toggle="collapse" data-bs-target="#collapse_aside1">
+
+                                Related category <img src="./images/icons/expand_less.png" alt="">
+                            </a>
+
+                            <div class="collapse show" id="collapse_aside1">
+                                <div class="pb-3">
+                                    <ul class="list-menu mb-0">
+                                        <li><a href="#">Equipments </a></li>
+                                        <li><a href="#">Home items </a></li>
+                                        <li><a href="#">Home Gadgets </a></li>
+                                        <li><a href="#">TV sets </a></li>
+                                        <li><a href="#">Microchips </a></li>
+                                        <li><a href="#">Smartphones </a></li>
+                                    </ul>
+                                    <a href="#" class="text-secondary hover:text-primary">See more <i
+                                            class="fa fa-chevron-down fa-sm"></i> </a>
+                                </div>
+                            </div>
+                            <!-- collapse .// -->
+                        </article>
+                        <!-- filterby item .// -->
+
+                        <!-- filterby item -->
+                        <article>
+                            <a href="#" class="fw-bold d-flex justify-content-between text-dark py-3 d-block border-top"
+                                data-bs-toggle="collapse" data-bs-target="#collapse_aside_brands">
+                                Brands <img src="./images/icons/expand_less.png" alt="">
+                            </a>
+                            <div class="collapse show" id="collapse_aside_brands">
+                                <div class="pb-3">
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Panasonic </span>
+                                    </label>
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Toyota </span>
+                                    </label>
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Xiaomi </span>
+                                    </label>
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Apple </span>
+                                    </label>
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Samsung </span>
+                                    </label>
+
+                                    <a href="#" class="text-secondary hover:text-primary">See more <i
+                                            class="fa fa-chevron-down fa-sm"></i> </a>
+                                </div>
+                            </div>
+                            <!-- collapse .// -->
+                        </article>
+                        <!-- filterby item .// -->
+
+                        <!-- filterby item -->
+                        <article>
+                            <a href="#" class="fw-bold text-dark py-3 d-block border-top d-flex justify-content-between"
+                                data-bs-toggle="collapse" data-bs-target="#collapse_aside_feature">
+                                Features <img src="./images/icons/expand_less.png" alt="">
+                            </a>
+                            <div class="collapse show" id="collapse_aside_feature">
+                                <div class="pb-3">
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Metallic frame </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="" checked>
+                                        <span class="form-check-label"> Super Amoled </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="" checked>
+                                        <span class="form-check-label"> Battery included </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Large screen </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label"> Extra memory </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+
+                                    <a href="#" class="text-secondary hover:text-primary">See more <i
+                                            class="fa fa-chevron-down fa-sm"></i> </a>
+                                </div>
+                            </div>
+                            <!-- collapse .// -->
+                        </article>
+                        <!-- filterby item .// -->
+
+                        <!-- filterby item -->
+                        <article>
+                            <a href="#" class="fw-bold text-dark py-3 d-block border-top d-flex justify-content-between"
+                                data-bs-toggle="collapse" data-bs-target="#collapse_aside2">
+                                Price range <img src="./images/icons/expand_less.png" alt="">
+                            </a>
+                            <div class="collapse show" id="collapse_aside2">
+                                <div class="pb-3">
+                                    <input type="range" class="form-range" min="0" max="100">
+                                    <div class="row mb-2 g-2">
+                                        <div class="col-6">
+                                            <label for="min" class="form-label">Min</label>
+                                            <input class="form-control" id="min" placeholder="$0">
+                                        </div>
+                                        <!-- col end.// -->
+
+                                        <div class="col-6">
+                                            <label for="max" class="form-label">Max</label>
+                                            <input class="form-control" id="max" placeholder="$9999">
+                                        </div>
+                                        <!-- col end.// -->
+                                    </div>
+                                    <!-- row end.// -->
+                                    <button class="btn btn-outline-secondary w-100" type="button">Apply</button>
+                                </div>
+                            </div>
+                            <!-- collapse .// -->
+                        </article>
+                        <!-- filterby item .// -->
+
+                        <!-- filterby item -->
+                        <article class="filter-group">
+                            <a href="#" class="fw-bold text-dark py-3 d-block border-top d-flex justify-content-between"
+                                data-bs-toggle="collapse" data-bs-target="#collapse_aside3">
+                                Condition <img src="./images/icons/expand_less.png" alt="">
+                            </a>
+                            <div class="collapse show" id="collapse_aside3">
+                                <div class="pb-3">
+
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="radio" name="condition" value=""
+                                            checked="">
+                                        <span class="form-check-label"> Any </span>
+                                    </label>
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="radio" name="condition" value="">
+                                        <span class="form-check-label"> Refurbished </span>
+                                    </label>
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="radio" name="condition" value="">
+                                        <span class="form-check-label"> Damaged </span>
+                                    </label>
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="radio" name="condition" value="">
+                                        <span class="form-check-label"> Brand new </span>
+                                    </label>
+
+                                </div>
+                            </div>
+                            <!-- collapse .// -->
+                        </article>
+                        <!-- filterby item .// -->
+
+                        <!-- filterby item -->
+                        <article class="filter-group">
+                            <a href="#" class="fw-bold text-dark py-3 d-block border-top d-flex justify-content-between"
+                                data-bs-toggle="collapse" data-bs-target="#collapse_aside4">
+                                Ratings <img src="./images/icons/expand_less.png" alt="">
+                            </a>
+                            <div class="collapse show" id="collapse_aside4">
+                                <div class="pb-3">
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label">
+                                            <ul class="rating-stars">
+                                                <li class="stars-active" style="width: 100%;">
+                                                    <img src="images/misc/stars-active.svg" alt="">
+                                                </li>
+                                                <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                            </ul>
+                                        </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label">
+                                            <ul class="rating-stars">
+                                                <li class="stars-active" style="width: 80%;">
+                                                    <img src="images/misc/stars-active.svg" alt="">
+                                                </li>
+                                                <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                            </ul>
+                                        </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label">
+                                            <ul class="rating-stars">
+                                                <li class="stars-active" style="width: 60%;">
+                                                    <img src="images/misc/stars-active.svg" alt="">
+                                                </li>
+                                                <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                            </ul>
+                                        </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+                                    <label class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox" value="">
+                                        <span class="form-check-label">
+                                            <ul class="rating-stars">
+                                                <li class="stars-active" style="width: 40%;">
+                                                    <img src="images/misc/stars-active.svg" alt="">
+                                                </li>
+                                                <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                            </ul>
+                                        </span>
+                                    </label>
+                                    <!-- form-check end.// -->
+                                </div>
+                            </div>
+                            <!-- collapse.// -->
+                        </article>
+                        <!-- filterby item .// -->
+
+                    </div>
+                    <!-- card.// -->
+
+                    <!-- ===== Card for sidebar filter .// ===== -->
+
+                </aside>
+                <!-- col .// -->
+                <main class="col-xl-10 col-lg-9">
+
+                    <header class="card mb-3">
+                        <div class="p-3 d-md-flex align-items-center">
+                            <!-- left   -->
+                            <span class="d-block py-2">12,911 items in <b>Mobile accessory</b> </span>
+                            <!-- left  .//  -->
+                            <!-- right -->
+                            <div class="ms-auto d-md-flex align-items-center gap-3">
+                                <label class="form-check my-2 me-3">
+                                    <input class="form-check-input" type="checkbox" value="">
+                                    <span class="form-check-label"> Verified only </span>
+                                </label>
+                                <!-- form-check end.// -->
+
+                                <select class="form-select d-inline-block w-auto">
+                                    <option value="0">Best match</option>
+                                    <option value="1">Recommended</option>
+                                    <option value="2">High rated</option>
+                                    <option value="3">Randomly</option>
+                                </select>
+                                <div class="btn-group">
+                                    <a class='btn btn-light' data-bs-toggle='tooltip' href='/uikit/p-market-list'
+                                        title='List view'>
+                                        <img src="./images/icons/listview.png" alt="">
+                                    </a>
+                                    <a class='btn btn-light active' data-bs-toggle='tooltip'
+                                        href='/uikit/p-market-list-grid' title='Grid view'>
+                                        <img src="./images/icons/gridview.png" alt="">
+                                    </a>
+                                </div>
+                                <!-- btn-group end.// -->
+                            </div>
+                            <!-- right .//-->
+                        </div>
+                    </header>
+                    <!-- card .//-->
+
+                    <!-- ========= content items ========= -->
+
+                    <div class="row">
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/1.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$390.00</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 40%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">3.5</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Office chair soft material yellow color </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/2.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$176.00</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 100%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">5.0</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Great product name here as new model </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/3.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$998.95</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width:90%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.5</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Ceramic Jug for Kitchen, Medium size </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/4.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$68.99</strong>
+                                        <del class="price-old">$94</del>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 60%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">3.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> tech Plant Natural with Vase </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"><img src="images/items/tech/5.jpg"></a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon">
+                                        <img src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$498.95</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 100%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.7</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Airbed Blue color Soft Material With Pump </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/7.jpg"></a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$98.95</strong>
+                                        <del class="price-old">$14.99</del>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 70%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Product name with Features goes here as demo text </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/8.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$98.95</strong>
+                                        <del class="price-old">$14.99</del>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 70%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Great product name here as new model </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/9.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$98.95</strong>
+                                        <del class="price-old">$14.99</del>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 70%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Gaming Headset Headphone with Microphone</a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/10.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$24.00</strong>
+                                        <del class="price-old">$99.50</del>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 60%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">3.5</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title">Philips HD4646/20 Electric kettle Black color</a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/9.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$98.95</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 70%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title">GoPro HERO6 4K Action Camera - Black</a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/8.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$98.95</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 70%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title">Sample product name goes here as demo</a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/5.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$340.00</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 100%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">5.0</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Super Headset Headphone with Microphone </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/2.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$98.95</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 70%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Office chair soft material yellow color</a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/1.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$195.00</strong>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 70%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">4.2</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title"> Great product name here as new model </a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                        <div class="col-xxl-4 col-xl-4 col-sm-6 col-12">
+                            <figure class="card card-product-grid">
+                                <a href="#" class="img-wrap"> <img src="images/items/tech/10.jpg"> </a>
+                                <figcaption class="p-3 border-top">
+                                    <a href="#" class="float-end btn btn-light btn-icon"> <img
+                                            src="./images/icons/Vector.png" alt=""> </a>
+                                    <div class="price-wrap mb-1">
+                                        <strong class="price text-lg">$24.00</strong>
+                                        <del class="price-old">$99.50</del>
+                                    </div>
+                                    <!-- price-wrap.// -->
+                                    <div class="rating-wrap mb-1">
+                                        <ul class="rating-stars">
+                                            <li class="stars-active" style="width: 60%;">
+                                                <img src="images/misc/stars-active.svg" alt="">
+                                            </li>
+                                            <li> <img src="images/misc/starts-disable.svg" alt=""> </li>
+                                        </ul>
+                                        <span class="label-rating text-warning">3.5</span>
+                                    </div>
+                                    <!-- rating-wrap .// -->
+                                    <a href="#" class="title">Philips HD4646/20 Electric kettle Black color</a>
+                                </figcaption>
+                            </figure>
+                            <!-- card // -->
+                        </div>
+                        <!-- col .// -->
+
+                    </div>
+                    <!-- row.// -->
+
+                    <footer class="d-flex my-4">
+                        <div class="ms-auto me-3">
+                            <select name="" class="form-select">
+                                <option value="">Show 20</option>
+                                <option value="">Show 40</option>
+                                <option value="">Show 100</option>
+                            </select>
+                        </div>
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Prev</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active"> <span class="page-link">2</span> </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </footer>
+
+                    <!-- ========= content items .// ========= -->
+
+
+
+                </main>
+                <!-- col .// -->
+            </div>
+            <!-- row .// -->
+
+        </div>
+        <!-- container .//  -->
+    </section>
+    <!-- ============== SECTION CONTENT END// ============== -->
+
+
+
+
+
+    <!-- ================ SECTION SUBSCRIBE ================ -->
+    <section class="padding-y-lg" style="background-color: #EFF2F4;">
+        <div class="container">
+
+            <h4 class="text-center">Subscribe on our newsletter</h4>
+            <p class="pb-2 text-center">Get daily news on upcoming offers from many suppliers all over the world</p>
+
+            <div style="max-width:380px;" class="mx-auto">
+
+                <div class="d-flex">
+                    <div class="me-1 flex-grow-1">
+                        <input class="w-100 form-control" placeholder="Your Email" type="email">
+                    </div>
+                    <!-- col.// -->
+                    <div class="">
+                        <button type="submit" class="btn btn-primary"> Subscribe
+                        </button>
+                    </div>
+                    <!-- col.// -->
+                </div>
+            </div>
+
+
+        </div>
+        <!-- container  .// -->
+    </section>
+    <!-- ================ SECTION SUBSCRIBE END.// ================ -->
+
+
+    <footer class="section-footer footer-dark ">
+        <div class="container">
+            <section class="footer-main padding-y">
+                <div class="row">
+                    <aside class="col-12 col-sm-12 col-lg-4">
+                        <article class="me-lg-5">
+                            <img src="images/Home/logo.webp" height="44" class="logo-footer">
+                            <p class="mt-3 text-white-50" style="color: #505050!important;"> Best information about the
+                                company gies here but now lorem ipsum is</p>
+                            <nav class="mb-4 mb-lg-0">
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (1).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (2).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (3).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (4).webp"
+                                        alt="" style="width: 36px;"></a>
+                                <a title="Facebook" target="_blank" href="#"><img src="./images/footer/1 (5).webp"
+                                        alt="" style="width: 36px;"></a>
+
+                            </nav>
+                        </article>
+                    </aside>
+                    <aside class="col-6 col-sm-4 col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Store</h6>
+                        <ul class="list-menu mb-4">
+                            <li> <a href="#" style="color: #8B96A5!important;">About us</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Find store</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Categories</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Blogs</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-6 col-sm-4 col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Information</h6>
+                        <ul class="list-menu mb-4">
+                            <li> <a href="#" style="color: #8B96A5!important;">Help center</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Money refund</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Shipping info</a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;">Refunds</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-6 col-sm-4  col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Support</h6>
+                        <ul class="list-menu mb-4">
+                            <li> <a href="#" style="color: #8B96A5!important;"> Help center </a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;"> Documents </a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;"> Account restore </a></li>
+                            <li> <a href="#" style="color: #8B96A5!important;"> My Orders </a></li>
+                        </ul>
+                    </aside>
+
+                    <aside class="col-6 col-sm-4 col-lg-2">
+                        <h6 class="title" style="color: #1C1C1C;">Download</h6>
+                        <a href="#" style="color: #8B96A5!important;" class="mb-2 d-inline-block"> <img
+                                src="images/misc/btn-appstore.png" height="40"></a>
+                        <a href="#" style="color: #8B96A5!important;" class="mb-2 d-inline-block"> <img
+                                src="images/misc/btn-market.png" height="40"></a>
+                    </aside>
+                </div>
+                <!-- row.// -->
+            </section>
+            <!-- footer-top.// -->
+            <hr class="my-0">
+
+        </div>
+        <!-- container end.// -->
+    </footer>
+    <div style="background-color: #EFF2F4; color: #606060;">
+        <section class="container footer-bottom d-flex justify-content-between">
+
+            <div style="color: #606060;">
+                © 2025 Ecommerce Developed By Ayesha Yousufi 
+            </div>
+            <nav class="dropup">
+                <button class="dropdown-toggle btn align-items-center" type="button" data-bs-toggle="dropdown">
+                    <img src="images/flags/flag-usa.png" class="me-2" height="20">
+                    <span>English</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Russian</a></li>
+                    <li><a class="dropdown-item" href="#">Arabic</a></li>
+                    <li><a class="dropdown-item" href="#">Spanish</a></li>
+                </ul>
+            </nav>
+
+        </section>
+    </div>
+
+
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom js -->
+    <script src="js/script.js?v=2.0"></script>
+
+</body>
+
+</html>
