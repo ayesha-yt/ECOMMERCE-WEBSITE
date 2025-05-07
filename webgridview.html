@@ -18,48 +18,82 @@
 
     <!-- Font awesome 5 -->
     <link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 
 </head>
 
 <body class="bg-light-subtle">
     <!-- FOR MOBILE  -->
     <header class="mobile-header-top">
-        <div class="mobile-header-content">
-            <a href="home.html" class="brand-wrap me-2">
-                <img class="logo" height="40" src="images/Home/logo.webp">
-            </a>
-            <!-- brand-wrap end.// -->
-            <div class="flex-grow-1">
-                <form action="#" class="search my-3 my-lg-0 ms-xl-4">
-                    <div class="input-group">
-                        <input type="search" class="form-control" style="width:55%" placeholder="Search">
-                        <button class="btn btn-light"> <i class="fa fa-search"></i> </button>
-                    </div>
-                    <!-- input-group end.// -->
-                </form>
-                <!-- search-wrap end.// -->
+        <div class="mobile-header-content d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <!-- Hamburger Button -->
+                <button class="btn btn-light d-md-none" onclick="openNav()" style="font-size: 24px; border: none; background: none;">
+                    &#9776;
+                </button>
+    
+                <!-- Logo -->
+                <a href="index.html" class="brand-wrap me-2 ms-2">
+                    <img class="logo" height="40" src="images/Home/logo.webp">
+                </a>
+            </div>
+    
+            <div class="d-flex align-items-center" style="gap: 20px;">
+                <a href="cart.html">
+                    <img class="logo" width="27" height="27" src="images/icons/navtwo.png">
+                </a>
+                <img class="logo" width="30" height="30" src="images/icons/navone.png">
             </div>
         </div>
-        <!-- mobile-header-content .// -->
-    </header>
-
-    <nav class="mobile-nav-bottom">
-        <div class="mobile-nav-content">
-            <a href="#" class="nav-link">
-                <i class="icon fa fa-home"></i><span class="text">Home</span>
-            </a>
-            <a href="#" class="nav-link">
-                <i class="icon fa fa-box"></i><span class="text">Category</span>
-            </a>
-            <a href="#" class="nav-link">
-                <i class="icon fa fa-shopping-cart"></i><span class="text">My cart</span>
-            </a>
-            <a href="#" class="nav-link">
-                <i class="icon fa fa-user"></i><span class="text">Profile</span>
-            </a>
+    
+        <div class="flex-grow-1">
+            <form action="#" class="search my-3 my-lg-0 ms-xl-4" style="margin-left: 20px; margin-right: 20px;">
+                <div class="input-group">
+                    <input type="search" class="form-control" style="width: 55%" placeholder="Search">
+                </div>
+            </form>
         </div>
-    </nav>
-    <!-- FOR MOBILE .//end  -->
+    </header>
+    
+    <!-- Sidebar -->
+    <div id="mySidebar" class="mobile-sidebar">
+        <div style="margin: 20px 0px 10px 20px;">
+            <img class="logo" height="40" src="images/Home/logo.webp">
+        </div>
+    
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+        <div style="text-align: center; margin-bottom: 15px;">
+            <p><strong>Sign in | Register</strong></p>
+        </div>
+    
+        <a href="index.html" style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px;">
+            <i class="fas fa-home" style="margin-right: 8px; margin-left: 10px;"></i>
+            Home
+          </a>
+        <br>
+        <a href="categories.html" style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px;">
+            <i class="fas fa-th-list" style="margin-right: 8px; margin-left: 10px;"></i> Categories</a>
+
+        <a href="favorites.html"  style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px">
+            <i class="fas fa-heart" style="margin-right: 8px; margin-left: 10px;"></i> Favorites</a><br>
+        <a href="orders.html"  style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px">
+            <i class="fas fa-box" style="margin-right: 8px; margin-left: 10px;"></i> My Orders</a><br>
+    
+        <hr>
+    
+        <a href="#"  style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px"><i class="fas fa-globe"  style="margin-right: 8px; margin-left: 10px;"></i> English | USD</a><br>
+        <a href="contact.html"  style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px"><i class="fas fa-headphones-alt"  style="margin-right: 8px; margin-left: 10px;"></i> Contact us</a><br>
+        <a href="about.html"  style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px"><i class="fas fa-info-circle"  style="margin-right: 8px; margin-left: 10px;"></i> About</a>
+    
+        <hr>
+    
+        <a href="user-agreement.html" style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px"> User agreement</a><br>
+        <a href="partnership.html" style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px"> Partnership</a><br>
+        <a href="privacy-policy.html" style="display: inline-flex; align-items: center; text-decoration: none; padding: 5px 10px"> Privacy policy</a>
+    </div>
+    
 
     <header class="section-header mobile-hidden">
         <section class="header-main bg-white border-bottom py-lg-3 py-2">
@@ -67,7 +101,7 @@
                 <div class="row gx-2 align-items-center">
 
                     <div class="col-xl-2 col-lg col-6 col-sm-6  col-md flex-grow-0">
-                        <a href="home.html" class="brand-wrap me-3">
+                        <a href="index.html" class="brand-wrap me-3">
                             <img class="logo" height="40" src="images/Home/logo.webp">
                         </a>
                         <!-- brand-wrap end.// -->
@@ -124,7 +158,7 @@
                             </div>
 
                             <div class="col mx-2 text-center">
-                                <a href="#" class="text-muted hover:text-dark">
+                                <a href="cart.html" class="text-muted hover:text-dark">
                                     <span class="fs-5 d-inline-block"> <img src="./images/Home/Vector (3).webp"
                                             style="width: 20px; "> </span>
                                     <small class=" d-block text-dark text-truncate"> Cart </small>
@@ -151,7 +185,7 @@
                 <div class="collapse navbar-collapse" id="navbar_main">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link " href="#" role="button">
+                            <a class="nav-link " href="webgridview.html" role="button">
                                 All category
                             </a>
 
@@ -210,7 +244,7 @@
     <section class="py-4">
         <div class="container">
             <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a class="text-muted" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-muted" href="index.html">Home</a></li>
                 <li class="breadcrumb-item"><a class="text-muted" href="#">Category name</a></li>
                 <li class="breadcrumb-item"><a class="text-muted" href="#">Techs</a></li>
                 <li class="breadcrumb-item text-muted" aria-current="page">Equipments</li>
